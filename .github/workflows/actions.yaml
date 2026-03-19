@@ -4,7 +4,8 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest #the latest image of the container
+    runs-on: self-hosted # self-hosted runners
+    #runs-on: ubuntu-latest #the latest image of the container
 
     strategy:
       matrix:
